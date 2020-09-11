@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <section>
+        <div id="divP">
+            <h3  class="texto" id="textoPrincp">Crie sua receita</h3>
+
+            <div id="idDivTitulo">
+                <label for="iNome" class="texto" >Qual o nome da sua receita?</label>
+                <input type="text" name="iNome" id="iNome">
+            </div>
+
+            <div id="divIngred">
+                <p class="texto">Ingredientes</p>
+
+                <div id="divInputsIngred"></div>
+
+                <button id="btnIngred" >Add Ingrediente</button>
+            </div>
+
+            <div id="divPasso">
+                <h3>Modo de preparo</h3>
+
+                <div id="idDivTextPasso">
+
+                </div>
+                <button id="btnTxt">Adicionar texto</button>
+                
+            </div>
+
+            <div id="divBtnSalvar">
+                <button id="btnSalvar">Salvar</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="script.js"></script>
+
+</html>

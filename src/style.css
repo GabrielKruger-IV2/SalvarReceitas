@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Alata', sans-serif;
+}
+
+#body {
+    height: 100vh;
+    background-color: grey;
+}
+
+#divP {
+    text-align: center;
+    width: 70vw;
+    padding: 10px 0px 30px 0px;
+    background-color: rgb(179, 179, 179);
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+#idDivTitulo{
+    background-color: grey;
+    width: 50vw;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+#divIngred{
+    background-color: grey;
+    width: 50vw;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+#divPasso{
+    background-color: grey;
+    width: 50vw;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+}
+#textoPrincp{
+    margin-top: 2vh;
+}
+.divInterna{
+    margin-top: 2vh;
+    margin-bottom:2vh;
+}
+input{
+    width: 10vw;
+}
+#divI1{
+    padding: 0;
+    margin-right: 4.2vw;
+}
+#divT1{
+    margin-right: 5.9vw;
+    
+}
+#p1{
+    margin-left: 5.9vw;
+}
+
+textarea{
+    width: 30vw;
+    resize: none;
+    height: 50px;
+}
+.texto{
+    font-size: 1em;
+}
+#divBtnSalvar{
+    background-color: grey;
+    width: 50vw;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+#btnSalvar{
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid #000000;
+ 
+}
+button{
+    border: 1px solid #000000;
+    background-color: rgb(192, 192, 192);
+    padding: 3px;
+    border-radius: 20px;
+}
+button:hover{  
+    background-color: rgb(250, 250, 250);
+}
+button:active{  
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
